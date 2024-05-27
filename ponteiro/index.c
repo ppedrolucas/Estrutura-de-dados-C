@@ -15,7 +15,7 @@ void imprimir()
 
 int main()
 {
-    // Aqui o ponteiro está recebendo o endereço da variável awp
+    // Aqui o ponteiro está apontando para o endereço da variável awp
     awp = 100;
     ponteiro_de_awp = &awp;
     imprimir();
