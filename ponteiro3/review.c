@@ -4,7 +4,7 @@
 int main()
 {
     int *p;
-    // Alocar região dinâmicamente
+    // Alocar região dinamicamente
     p = (int *)malloc(sizeof(int));
     /*A função malloc() vai vasculhar na memória do computador por uma região
     de memória livre, caso não consiga encontrar ela vai retornar NULL,
